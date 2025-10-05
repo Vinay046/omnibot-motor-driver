@@ -1,13 +1,5 @@
 #include "motor_driver.hpp"
 
-int main ()
-
-{
-
-  std::cout << "Hello World!" << std::endl;
-  return 0;
-}#include "motor_driver.hpp"
-
 using CallbackReturn = rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn;
 
 namespace omnibot::motor
