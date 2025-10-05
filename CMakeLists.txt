@@ -16,6 +16,7 @@ find_package(dynamixel_sdk REQUIRED)
 find_package(omnibot_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_lifecycle REQUIRED)
 
 include_directories(include)
 
@@ -26,6 +27,7 @@ ament_target_dependencies(motor_driver
   dynamixel_sdk
   std_msgs
   rclcpp
+  rclcpp_lifecycle
 )
 
 # Install
